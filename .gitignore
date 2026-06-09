@@ -1,0 +1,25 @@
+# ── Build output ──────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+
+# ── IDE files ─────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.project
+*.classpath
+.settings/
+
+# ── OS noise ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Runtime output ────────────────────────────────────────────────
+result.txt
+logs/
+*.log
+
+# ── Maven wrapper (optional, keep if using mvnw) ──────────────────
+!.mvn/wrapper/maven-wrapper.jar
